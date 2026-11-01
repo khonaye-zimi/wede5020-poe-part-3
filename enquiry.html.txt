@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enquire about Cape Town Cupcakes wedding towers, birthday boxes and custom orders. Get cost and availability instantly.">
+  <meta name="keywords" content="cupcake enquiry cape town, order cupcakes online">
+  <title>Enquiry | Cape Town Cupcakes - Order and Pricing</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cape Town Cupcakes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Enquire About Our Services</h2>
+    <p>Fill in the form to enquire about products, services, or becoming a volunteer or sponsor.</p>
+    <form id="enquiryForm" action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="ename">Full Name:</label>
+      <input type="text" id="ename" name="name" required minlength="2"><br><br>
+      <label for="eemail">Email:</label>
+      <input type="email" id="eemail" name="email" required><br><br>
+      <label for="ephone">Phone Number:</label>
+      <input type="tel" id="ephone" name="phone" pattern="[0-9]{10}" placeholder="0211234567" required><br><br>
+      <label for="eservice">Service Type:</label>
+      <select id="eservice" name="service" required>
+        <option value="">Select a service</option>
+        <option value="wedding">Wedding Cupcake Tower</option>
+        <option value="birthday">Birthday Cupcake Box</option>
+        <option value="custom">Custom Order</option>
+        <option value="volunteer">Become a Volunteer</option>
+        <option value="sponsor">Become a Sponsor</option>
+      </select><br><br>
+      <label for="eflavour">Cupcake Flavour:</label>
+      <select id="eflavour" name="flavour">
+        <option value="red-velvet">Red Velvet - R25</option>
+        <option value="chocolate">Chocolate Fudge - R22</option>
+        <option value="vanilla">Vanilla Sprinkle - R20</option>
+      </select><br><br>
+      <label for="equantity">Quantity (6 to 500):</label>
+      <input type="number" id="equantity" name="quantity" min="6" max="500" required><br><br>
+      <label for="edate">Date Needed:</label>
+      <input type="date" id="edate" name="date" required><br><br>
+      <label for="emessage">Additional Details:</label>
+      <textarea id="emessage" name="message" rows="4" required minlength="10"></textarea><br><br>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+    <div id="enquiryResult" style="margin-top:20px; background:white; padding:15px; border-radius:8px;"></div>
+    <h3>Frequently Asked</h3>
+    <button class="accordion-btn">How long does delivery take?</button>
+    <div class="accordion-content" style="display:none;">Delivery takes 1 to 3 working days in Cape Town.</div>
+    <button class="accordion-btn">Do you cater for allergies?</button>
+    <div class="accordion-content" style="display:none;">Yes, we have gluten free and vegan options.</div>
+  </main>
+  <footer>
+    <p>&copy; 2026 Cape Town Cupcakes | 123 Main Street, Cape Town | 021 123 4567</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

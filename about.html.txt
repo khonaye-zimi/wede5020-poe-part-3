@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Cape Town Cupcakes. Small family bakery in Cape Town since 2020 using fresh local ingredients.">
+  <meta name="keywords" content="about cape town cupcakes, family bakery cape town">
+  <title>About | Cape Town Cupcakes - Our Story</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cape Town Cupcakes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>About Us</h2>
+    <p>Cape Town Cupcakes started in 2020. Our mission is to bake the best cupcakes in Cape Town using fresh, locally sourced ingredients.</p>
+    <img src="images/bakery.jpg" srcset="images/bakery.jpg 800w" sizes="(max-width: 600px) 480px, 800px" alt="Inside our Cape Town Cupcakes bakery shop" width="400" loading="lazy">
+  </main>
+  <footer>
+    <p>&copy; 2026 Cape Town Cupcakes | 123 Main Street, Cape Town | 021 123 4567</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

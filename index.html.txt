@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cape Town Cupcakes bakes fresh red velvet, chocolate fudge and vanilla cupcakes in Cape Town. Order wedding towers and birthday boxes.">
+  <meta name="keywords" content="cupcakes cape town, birthday cupcakes, wedding cupcakes, red velvet cupcakes">
+  <title>Home | Cape Town Cupcakes - Fresh Cupcakes in Cape Town</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cape Town Cupcakes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+<section class="gallery">
+  <h2>Our Cupcakes</h2>
+  <div class="cupcake-grid">
+    <figure><img src="images/chocolate-cupcake.jpg" alt="Chocolate Cupcake"><figcaption>Chocolate Cupcake - R25</figcaption></figure>
+    <figure><img src="images/vanilla-cupcake.jpg" alt="Vanilla Cupcake"><figcaption>Vanilla Cupcake - R20</figcaption></figure>
+    <figure><img src="images/red-velvet-cupcake.jpg" alt="Red Velvet Cupcake"><figcaption>Red Velvet Cupcake - R30</figcaption></figure>
+    <figure><img src="images/carrot-cupcake.jpg" alt="Carrot Cupcake"><figcaption>Carrot Cupcake - R28</figcaption></figure>
+    <figure><img src="images/lemon-cupcake.jpg" alt="Lemon Cupcake"><figcaption>Lemon Cupcake - R22</figcaption></figure>
+    <figure><img src="images/strawberry-cupcake.jpg" alt="Strawberry Cupcake"><figcaption>Strawberry Cupcake - R26</figcaption></figure>
+  </div>
+</section>
+    <h2>Welcome to Cape Town Cupcakes</h2>
+    <img src="images/logo.png" alt="Cape Town Cupcakes logo with pink frosting" width="200" loading="lazy">
+    <img src="images/cupcakes.jpg" srcset="images/cupcakes.jpg 800w" sizes="(max-width: 600px) 480px, 800px" alt="Delicious assorted cupcakes on display in Cape Town bakery" width="400" loading="lazy">
+    <p>We bake fresh, delicious cupcakes daily in the heart of Cape Town. From red velvet to chocolate fudge, there is a cupcake for everyone.</p>
+    <p>Explore our <a href="services.html">products page</a> or send us an <a href="enquiry.html">enquiry</a>.</p>
+  </main>
+  <footer>
+    <p>&copy; 2026 Cape Town Cupcakes | 123 Main Street, Cape Town | 021 123 4567 | <a href="https://instagram.com/capetowncupcakes" rel="noopener">Instagram</a></p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

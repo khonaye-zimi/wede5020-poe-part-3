@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Cape Town Cupcakes for general messages, feedback and support. Visit us in Cape Town.">
+  <meta name="keywords" content="contact cape town cupcakes, cupcake shop cape town, feedback">
+  <title>Contact | Cape Town Cupcakes - Get In Touch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Cape Town Cupcakes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Main Street, Cape Town, 8000</p>
+    <p><strong>Phone:</strong> 021 123 4567</p>
+    <p><strong>Email:</strong> info@capetowncupcakes.co.za</p>
+    <div id="map" style="height:300px; margin:20px 0; border-radius:8px;"></div>
+    <h3>Send Us A General Message</h3>
+    <form id="contactForm" action="mailto:info@capetowncupcakes.co.za" method="post" enctype="text/plain">
+      <label for="cname">Full Name:</label>
+      <input type="text" id="cname" name="name" required minlength="2"><br><br>
+      <label for="cemail">Email:</label>
+      <input type="email" id="cemail" name="email" required><br><br>
+      <label for="ctype">Type of Message:</label>
+      <select id="ctype" name="type" required>
+        <option value="">Select type</option>
+        <option value="General">General Message</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Support">Support</option>
+      </select><br><br>
+      <label for="cmessage">Your Message:</label>
+      <textarea id="cmessage" name="message" rows="5" required minlength="10"></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="contactResult" style="margin-top:20px;"></div>
+  </main>
+  <footer>
+    <p>&copy; 2026 Cape Town Cupcakes | Follow us on Instagram</p>
+  </footer>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Cape Town Cupcakes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Cupcakes</h1>
+    <p>Freshly baked every day in Cape Town.</p>
+
+    <section class="menu-grid">
+      <div class="menu-item">
+        <img src="images/chocolate-cupcake.jpg" alt="Chocolate Cupcake">
+        <h3>Chocolate Cupcake</h3>
+        <p>R35</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/vanilla-cupcake.jpg" alt="Vanilla Cupcake">
+        <h3>Vanilla Cupcake</h3>
+        <p>R30</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/red-velvet-cupcake.jpg" alt="Red Velvet Cupcake">
+        <h3>Red Velvet Cupcake</h3>
+        <p>R40</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/carrot-cupcake.jpg" alt="Carrot Cupcake">
+        <h3>Carrot Cupcake</h3>
+        <p>R38</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/lemon-cupcake.jpg" alt="Lemon Cupcake">
+        <h3>Lemon Cupcake</h3>
+        <p>R32</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/strawberry-cupcake.jpg" alt="Strawberry Cupcake">
+        <h3>Strawberry Cupcake</h3>
+        <p>R36</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Cape Town Cupcakes</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
